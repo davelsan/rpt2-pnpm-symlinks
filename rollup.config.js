@@ -12,7 +12,6 @@ export default {
     rpt2({
       check: true,
       tsconfig: path.resolve(__dirname, 'tsconfig.json'),
-      verbosity: 3,
     })
   ],
 
