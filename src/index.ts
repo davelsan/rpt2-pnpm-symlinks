@@ -6,7 +6,7 @@ export function createTestPlugin (): TestPlugin {
 
 class TestPlugin {
 
-  install (app: App) {
+  install (app: any) {
     // do something with app
   }
 }
