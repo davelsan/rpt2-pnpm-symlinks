@@ -1,0 +1,23 @@
+{
+  "name": "rpt2-pnpm-symlinks",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "browser": "dist/index.esm.js",
+  "scripts": {
+    "build": "rimraf -f dist && rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Velasco",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.0.0-rc.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.22.1",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.7",
+    "vue": "^3.0.0-rc.2"
+  }
+}
