@@ -1,6 +1,6 @@
 {
   "name": "rpt2-pnpm-symlinks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "browser": "dist/index.esm.js",
